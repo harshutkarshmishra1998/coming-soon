@@ -177,6 +177,9 @@
     #subhead {
         font-size: 35px;
     }
+    #mainlogo {
+        width: 90px;
+    }
     .main-header .main-box .logo-box {
         position: relative;
         left: 0px;
