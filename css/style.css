@@ -1462,7 +1462,7 @@ img {
 
 ***/
 
-.nav-outer .mobile-nav-toggler {
+.mobile-nav-toggler {
     position: relative;
     float: right;
     font-size: 30px;
@@ -1470,7 +1470,7 @@ img {
     cursor: pointer;
     color: #ff006a;
     padding: 10px 0px;
-    display: none;
+    display: none; 
 }
 
 .mobile-menu {
