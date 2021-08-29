@@ -1,76 +1,4 @@
-/* ---------------------------------------
-
-[Master Stylesheet]
-
-Project:    MiExpo - Business Events and Digital Conference HTML Template
-Version:    1
-Last Change:    24/4/2019
-Primary Use:    Mi-Expo HTML Template
-
-------------------------------------------
-
-[Table of contents]
-
-1. Fonts
-2. Resources / Css Files
-3. Reset
-4. Global Settings
-5. Buttons Style / Two / Three
-6. Social Icons
-7. Scroll To Top style
-8. Section Title
-9. Main Header
-10. Main Slider Section
-11. Counter Section
-12. Welcome Section
-13. Speaker Section
-14. Events Section / Two
-15. Fluid Section One
-16. Price Section
-17. Gallery Section / Two
-18. Testimonial Section / Two
-19. Sponsors Section / Two
-20. News Section
-21. Newsletter Section
-22. Main Footer / Two
-23. Market Section
-24. Speaker Section Two
-25. Program Section
-26. Guest Section / Two
-27. Mission Section
-28. Business Section
-29. Festival Section
-30. Timer Section
-31. Video Section
-32. Page Title Section
-33. About Section
-34. Map Section
-35. Pricing Section
-36. Map Section
-37. Schedule Section
-38. Blog Section
-39. Blog Detail
-40. Sidebar Widgets
-41. Contact Info
-42. Contact Form Section
-
--------------------------------------------*/
-
 @import url('https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i|Passion+One:400,700,900|Sacramento');
-
-/* font-family: 'Sacramento', cursive;
-font-family: 'Arimo', sans-serif;
-font-family: 'Passion One', cursive; */
-
-
-/*** 
-
-====================================================================
-	1. Resources / Css Files
-====================================================================
-
- ***/
-
 @import url('font-awesome.css');
 @import url('flaticon.css');
 @import url('animate.css');
@@ -81,15 +9,6 @@ font-family: 'Passion One', cursive; */
 @import url('magnific-popup.css');
 @import url('jquery.fancybox.min.css');
 @import url('jquery.mCustomScrollbar.min.css');
-
-/*** 
-
-====================================================================
-	1. Fonts
-====================================================================
-
- ***/
-
 @font-face {
     font-family: 'Belmonte-Rough';
     src: url('../fonts/BelmonteRough.eot');
@@ -98,30 +17,12 @@ font-family: 'Passion One', cursive; */
     font-style: normal;
 }
 
-
-/*** 
-
-====================================================================
-	3. Reset
-====================================================================
-
- ***/
-
 * {
     margin: 0px;
     padding: 0px;
     border: none;
     outline: none;
 }
-
-
-/*** 
-
-====================================================================
-	4. Global Settings
-====================================================================
-
- ***/
 
 body {
     font-family: 'Arimo', sans-serif;
@@ -164,9 +65,6 @@ h6 {
     background: none;
     line-height: 1.6em;
 }
-
-
-/* Typography */
 
 h1 {
     font-size: 70px;
@@ -257,18 +155,6 @@ img {
     float: right;
 }
 
-
-/*** 
-
-====================================================================
-	5. Buttons Style
-====================================================================
-
- ***/
-
-
-/*Btn Style One*/
-
 .btn-style-one {
     position: relative;
     line-height: 24px;
@@ -286,9 +172,6 @@ img {
     color: #ff006a;
     background: none;
 }
-
-
-/*Btn Style Two*/
 
 .btn-style-two {
     position: relative;
@@ -310,9 +193,6 @@ img {
     border-color: #ffa116;
     color: #ffffff;
 }
-
-
-/* Btn Style Three */
 
 .btn-style-three {
     position: relative;
@@ -393,9 +273,6 @@ img {
     color: #ffffff;
 }
 
-
-/* Btn Style Four */
-
 .btn-style-four {
     position: relative;
     line-height: 24px;
@@ -471,9 +348,6 @@ img {
     color: #ffa116;
 }
 
-
-/* Btn Style Five */
-
 .btn-style-five {
     position: relative;
     color: #ffffff;
@@ -493,9 +367,6 @@ img {
     background: none;
     color: #ffa116;
 }
-
-
-/* List Style One */
 
 .list-style-one {
     position: relative;
@@ -524,18 +395,6 @@ img {
     color: #a321b9;
     font-family: "Flaticon";
 }
-
-
-/*** 
-
-====================================================================
-	6. Social Icons
-====================================================================
-
- ***/
-
-
-/*Social Icon One*/
 
 .social-icon-one {
     position: relative;
@@ -602,15 +461,6 @@ img {
     height: auto;
 }
 
-
-/*** 
-
-====================================================================
-	7. Scroll To Top style
-====================================================================
-
-***/
-
 .scroll-to-top {
     position: fixed;
     bottom: 15px;
@@ -637,15 +487,6 @@ img {
     color: #ffffff;
     background: #242f6c;
 }
-
-
-/*** 
-
-====================================================================
-	8. Section Title
-====================================================================
-
-***/
 
 .sec-title {
     position: relative;
@@ -728,15 +569,6 @@ img {
 .sec-title.light .text {
     color: #ffffff;
 }
-
-
-/*** 
-
-====================================================================
-	9. Main Header
-====================================================================
-
-***/
 
 .main-header {
     position: absolute;
@@ -1453,15 +1285,6 @@ img {
     display: none;
 }
 
-
-/*** 
-
-====================================================================
-			Mobile Menu
-====================================================================
-
-***/
-
 .mobile-nav-toggler {
     position: relative;
     float: right;
@@ -1470,7 +1293,7 @@ img {
     cursor: pointer;
     color: #ff006a;
     padding: 10px 0px;
-    display: none; 
+    display: none;
 }
 
 .mobile-menu {
@@ -1659,15 +1482,6 @@ img {
     display: none;
 }
 
-
-/*** 
-
-====================================================================
-	Search Popup
-====================================================================
-
-***/
-
 .search-popup {
     position: fixed;
     left: 0px;
@@ -1806,15 +1620,6 @@ img {
     border-color: #ff006a;
 }
 
-
-/*** 
-
-====================================================================
-	11. Banner Section
-====================================================================
-
-***/
-
 .banner-section {
     position: relative;
     padding: 285px 0px 260px;
@@ -1939,15 +1744,6 @@ img {
     background: url(../images/icons/icon-3.png) no-repeat;
 }
 
-
-/*** 
-
-====================================================================
-	Timer Section
-====================================================================
-
-***/
-
 .timer-section {
     position: relative;
 }
@@ -2000,15 +1796,6 @@ img {
     position: relative;
     text-align: right;
 }
-
-
-/*** 
-
-====================================================================
-	Countdown style
-====================================================================
-
-***/
 
 .time-counter {
     position: relative;
@@ -2108,15 +1895,6 @@ img {
 .time-counter.style-two .time-countdown .counter-column:before {
     display: none;
 }
-
-
-/*** 
-
-====================================================================
-	Welcome Section
-====================================================================
-
-***/
 
 .welcome-section {
     position: relative;
@@ -2406,15 +2184,6 @@ img {
     margin-top: 12px;
 }
 
-
-/*** 
-
-====================================================================
-	Speaker Section
-====================================================================
-
-***/
-
 .speaker-section {
     position: relative;
     padding: 100px 0px 100px;
@@ -2602,15 +2371,6 @@ img {
     position: relative;
     margin-top: 30px;
 }
-
-
-/*** 
-
-====================================================================
-	Events Section
-====================================================================
-
-***/
 
 .events-section {
     position: relative;
@@ -2958,15 +2718,6 @@ img {
     margin-top: 10px;
 }
 
-
-/*** 
-
-====================================================================
-	Fluid Section One
-====================================================================
-
-***/
-
 .fluid-section-one {
     position: relative;
 }
@@ -3095,15 +2846,6 @@ img {
 .fluid-section-one .content-column .content-box .fluid-list li:nth-child(3) strong {
     background: url(../images/icons/icon-3.png) no-repeat;
 }
-
-
-/*** 
-
-====================================================================
-	Price Section
-====================================================================
-
-***/
 
 .price-section {
     position: relative;
@@ -3344,15 +3086,6 @@ img {
     text-align: center;
 }
 
-
-/*** 
-
-====================================================================
-	Gallery Section
-====================================================================
-
-***/
-
 .gallery-section {
     position: relative;
 }
@@ -3556,15 +3289,6 @@ img {
     vertical-align: middle;
 }
 
-
-/*** 
-
-====================================================================
-	Tesimonial Section
-====================================================================
-
-***/
-
 .testimonial-section {
     position: relative;
     padding: 100px 0px 100px;
@@ -3678,15 +3402,6 @@ img {
     font-size: 14px;
 }
 
-
-/*** 
-
-====================================================================
-	Sponsors Section
-====================================================================
-
-***/
-
 .sponsors-section {
     position: relative;
     overflow: hidden;
@@ -3753,15 +3468,6 @@ img {
 .sponsors-section .sponsors-list a:hover {
     opacity: 1;
 }
-
-
-/*** 
-
-====================================================================
-	News Section
-====================================================================
-
-***/
 
 .news-section {
     position: relative;
@@ -3935,15 +3641,6 @@ img {
     font-size: 12px;
     margin-left: 5px;
 }
-
-
-/*** 
-
-====================================================================
-	Newsletter Section
-====================================================================
-
-***/
 
 .newsletter-section {
     position: relative;
@@ -4182,15 +3879,6 @@ img {
     font-size: 16px;
 }
 
-
-/*** 
-
-====================================================================
-	Banner Section Two
-====================================================================
-
-***/
-
 .banner-section-two {
     position: relative;
 }
@@ -4372,15 +4060,6 @@ img {
     background-position: left center;
 }
 
-
-/*** 
-
-====================================================================
-	Market Section
-====================================================================
-
-***/
-
 .market-section {
     position: relative;
     padding: 115px 0px 125px;
@@ -4558,15 +4237,6 @@ img {
     position: relative;
 }
 
-
-/*** 
-
-====================================================================
-	Counter Section
-====================================================================
-
-***/
-
 .counter-section {
     position: relative;
     padding: 90px 0px 95px;
@@ -4680,15 +4350,6 @@ img {
 .fact-counter.style-two .column:nth-child(3) .inner .count-outer {
     background: url(../images/icons/icon-3.png) no-repeat;
 }
-
-
-/*** 
-
-====================================================================
-	Speaker Section Two
-====================================================================
-
-***/
 
 .speaker-section-two {
     position: relative;
@@ -4964,15 +4625,6 @@ img {
     background-color: #ffffff;
 }
 
-
-/*** 
-
-====================================================================
-	Fluid Section Two
-====================================================================
-
-***/
-
 .fluid-section-two {
     position: relative;
 }
@@ -5095,15 +4747,6 @@ img {
     font-size: 40px;
 }
 
-
-/*** 
-
-====================================================================
-	Accordion Style
-====================================================================
-
-***/
-
 .accordion-box {
     position: relative;
 }
@@ -5202,15 +4845,6 @@ img {
 .accordion-box .block .content p:last-child {
     margin-bottom: 0px;
 }
-
-
-/*** 
-
-====================================================================
-	Programs Section
-====================================================================
-
-***/
 
 .programs-section {
     position: relative;
@@ -5418,15 +5052,6 @@ img {
     background-color: #a321b9;
 }
 
-
-/*** 
-
-====================================================================
-	Gallery Section Two
-====================================================================
-
-***/
-
 .gallery-section-two {
     position: relative;
     padding-top: 95px;
@@ -5490,15 +5115,6 @@ img {
 .gallery-section-two .owl-nav .owl-next:hover {
     color: #ffffff;
 }
-
-
-/*** 
-
-====================================================================
-	Testimonial Section
-====================================================================
-
-***/
 
 .testimonial-section-two {
     position: relative;
@@ -5592,15 +5208,6 @@ img {
     left: 36%;
     bottom: 10%;
 }
-
-
-/*** 
-
-====================================================================
-	Digital Event Section
-====================================================================
-
-***/
 
 .digital-event-section {
     position: relative;
@@ -5704,15 +5311,6 @@ img {
 .sponsors-section-two .image-box img:hover {
     opacity: 1;
 }
-
-
-/*** 
-
-====================================================================
-	Main Slider
-====================================================================
-
-***/
 
 .main-slider {
     position: relative;
@@ -5897,15 +5495,6 @@ img {
     transition-delay: 2200ms;
 }
 
-
-/*** 
-
-====================================================================
-	Guest Section
-====================================================================
-
-***/
-
 .guest-section {
     position: relative;
     overflow: hidden;
@@ -5987,15 +5576,6 @@ img {
     position: relative;
     color: #222222;
 }
-
-
-/*** 
-
-====================================================================
-	Business Section
-====================================================================
-
-***/
 
 .business-section {
     position: relative;
@@ -6144,15 +5724,6 @@ img {
 .inventor-block .inner-box:hover .lower-box h3 a {
     color: #ffffff;
 }
-
-
-/*** 
-
-====================================================================
-	Mission Section
-====================================================================
-
-***/
 
 .mission-section {
     position: relative;
@@ -6364,15 +5935,6 @@ img {
     color: rgba(255, 255, 255, 0.20);
 }
 
-
-/*** 
-
-====================================================================
-	Speaker Section Three
-====================================================================
-
-***/
-
 .speaker-section-three {
     position: relative;
     padding: 95px 0px 95px;
@@ -6493,15 +6055,6 @@ img {
 .speaker-block-three .inner-box:hover .content .designation {
     color: rgba(255, 255, 255, 0.50);
 }
-
-
-/*** 
-
-====================================================================
-	Price Section Two
-====================================================================
-
-***/
 
 .price-section-two {
     position: relative;
@@ -6682,15 +6235,6 @@ img {
     transform: scale(1.1, 1.05);
 }
 
-
-/*** 
-
-====================================================================
-	Message Section
-====================================================================
-
-***/
-
 .message-section {
     position: relative;
     padding: 100px 0px 90px;
@@ -6798,15 +6342,6 @@ img {
     padding: 12px 45px;
 }
 
-
-/*** 
-
-====================================================================
-	Dark Page
-====================================================================
-
-***/
-
 .dark-page {
     background-color: #0b0a2d;
 }
@@ -6864,15 +6399,6 @@ img {
 .dark-page .price-block .inner-box .charges {
     color: #cccccc;
 }
-
-
-/*** 
-
-====================================================================
-	Banner Section Three
-====================================================================
-
-***/
 
 .banner-section-three {
     position: relative;
@@ -6973,15 +6499,6 @@ img {
     margin: 0px 7px 14px;
 }
 
-
-/*** 
-
-====================================================================
-	Festival Section
-====================================================================
-
-***/
-
 .festival-section {
     position: relative;
     padding: 105px 0px 110px;
@@ -7080,15 +6597,6 @@ img {
     padding: 11px 30px;
 }
 
-
-/*** 
-
-====================================================================
-	Featured Section
-====================================================================
-
-***/
-
 .featured-section {
     position: relative;
     padding: 150px 0px 225px;
@@ -7161,15 +6669,6 @@ img {
     margin-top: 15px;
 }
 
-
-/*** 
-
-====================================================================
-	Video Section
-====================================================================
-
-***/
-
 .video-section {
     position: relative;
 }
@@ -7191,15 +6690,6 @@ img {
     color: teal;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-
-/*** 
-
-====================================================================
-	Speaker Section Four
-====================================================================
-
-***/
 
 .speaker-section-four {
     position: relative;
@@ -7265,15 +6755,6 @@ img {
     font-size: 20px;
 }
 
-
-/*** 
-
-====================================================================
-	Counter Section Two
-====================================================================
-
-***/
-
 .counter-section-two {
     position: relative;
     padding: 100px 0px 90px;
@@ -7292,15 +6773,6 @@ img {
 .counter-section-two .auto-container {
     max-width: 1460px;
 }
-
-
-/*** 
-
-====================================================================
-	Sponsors Section Three
-====================================================================
-
-***/
 
 .sponsors-section-three {
     position: relative;
@@ -7349,15 +6821,6 @@ img {
 .sponsors-section-three .image-box img:hover {
     opacity: 1;
 }
-
-
-/*** 
-
-====================================================================
-	Page Title
-====================================================================
-
-***/
 
 .page-title {
     position: relative;
@@ -7444,15 +6907,6 @@ img {
     display: none;
 }
 
-
-/*** 
-
-====================================================================
-	Service Block
-====================================================================
-
-***/
-
 .services-section-one {
     position: relative;
     padding: 105px 0px 60px;
@@ -7535,15 +6989,6 @@ img {
     font-size: 64px;
     line-height: 1em;
 }
-
-
-/*** 
-
-====================================================================
-	Sponsors Section Four
-====================================================================
-
-***/
 
 .sponsors-section-four {
     position: relative;
@@ -7656,15 +7101,6 @@ img {
 .sponsors-section-four.style-two .sponsors-outer:before {
     display: none;
 }
-
-
-/*** 
-
-====================================================================
-	Gallery Section
-====================================================================
-
- ***/
 
 .gallery-section-three {
     position: relative;
@@ -8093,15 +7529,6 @@ img {
     float: right;
 }
 
-
-/*** 
-
-====================================================================
-	Event Days Section
-====================================================================
-
- ***/
-
 .event-days-section {
     position: relative;
     padding: 95px 0px 100px;
@@ -8115,15 +7542,6 @@ img {
     margin-bottom: 40px;
 }
 
-
-/*** 
-
-====================================================================
-	Blog Page Section
-====================================================================
-
- ***/
-
 .blog-page-section {
     position: relative;
     padding: 100px 0px 100px;
@@ -8132,15 +7550,6 @@ img {
 .blog-page-section .news-block {
     margin-bottom: 80px;
 }
-
-
-/*** 
-
-====================================================================
-	Styled Pagination
-====================================================================
-
-***/
 
 .styled-pagination {
     position: relative;
@@ -8178,15 +7587,6 @@ img {
     border-color: #a321b9;
     background-color: #a321b9;
 }
-
-
-/*** 
-
-====================================================================
-	Sidebar Page Container
-====================================================================
-
-***/
 
 .sidebar-page-container {
     position: relative;
@@ -9195,15 +8595,6 @@ img {
     line-height: 1.8em;
 }
 
-
-/*** 
-
-====================================================================
-	Comments Area
-====================================================================
-
- ***/
-
 .sidebar-page-container .comments-area {
     position: relative;
     margin-bottom: 50px;
@@ -9335,15 +8726,6 @@ img {
     margin-bottom: 0px;
 }
 
-
-/*** 
-
-====================================================================
-	Comment Form
-====================================================================
-
- ***/
-
 .comment-form {
     position: relative;
 }
@@ -9410,15 +8792,6 @@ img {
     padding: 11px 33px;
 }
 
-
-/*** 
-
-====================================================================
-	Submit Info Section
-====================================================================
-
- ***/
-
 .submit-info-section {
     position: relative;
     padding: 95px 0px 70px;
@@ -9477,15 +8850,6 @@ img {
     color: #666666;
 }
 
-
-/*** 
-
-====================================================================
-	Map Section
-====================================================================
-
-***/
-
 .map-section {
     position: relative;
 }
@@ -9513,15 +8877,6 @@ img {
     margin-bottom: 5px;
     color: #121212;
 }
-
-
-/*** 
-
-====================================================================
-	Contact Form Section
-====================================================================
-
-***/
 
 .contact-form-section {
     position: relative;
