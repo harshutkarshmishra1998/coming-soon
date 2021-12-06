@@ -1,4 +1,10 @@
-(function($) {
+$(document).ready(function () {
+    $('#myModal').modal('show');
+});
+
+setTimeout(function () { $('#myModal').modal('hide'); }, 10000);
+
+(function ($) {
 
     "use strict";
 
@@ -35,7 +41,7 @@
         $('.main-header li.dropdown').append('<div class="dropdown-btn"><span class="fa fa-angle-down"></span></div>');
 
         //Dropdown Button
-        $('.main-header li.dropdown .dropdown-btn').on('click', function() {
+        $('.main-header li.dropdown .dropdown-btn').on('click', function () {
             $(this).prev('ul').slideToggle(500);
         });
 
@@ -52,20 +58,20 @@
         var mobileMenuContent = $('.main-header .nav-outer .main-menu .navigation').html();
         $('.mobile-menu .navigation').append(mobileMenuContent);
         $('.sticky-header .navigation').append(mobileMenuContent);
-        $('.mobile-menu .close-btn').on('click', function() {
+        $('.mobile-menu .close-btn').on('click', function () {
             $('body').removeClass('mobile-menu-visible');
         });
         //Dropdown Button
-        $('.mobile-menu li.dropdown .dropdown-btn').on('click', function() {
+        $('.mobile-menu li.dropdown .dropdown-btn').on('click', function () {
             $(this).prev('ul').slideToggle(500);
         });
         //Menu Toggle Btn
-        $('.mobile-nav-toggler').on('click', function() {
+        $('.mobile-nav-toggler').on('click', function () {
             $('body').addClass('mobile-menu-visible');
         });
 
         //Menu Toggle Btn
-        $('.mobile-menu .menu-backdrop,.mobile-menu .close-btn').on('click', function() {
+        $('.mobile-menu .menu-backdrop,.mobile-menu .close-btn').on('click', function () {
             $('body').removeClass('mobile-menu-visible');
         });
 
@@ -76,16 +82,16 @@
     if ($('#search-popup').length) {
 
         //Show Popup
-        $('.search-box-btn').on('click', function() {
+        $('.search-box-btn').on('click', function () {
             $('#search-popup').addClass('popup-visible');
         });
-        $(document).keydown(function(e) {
+        $(document).keydown(function (e) {
             if (e.keyCode == 27) {
                 $('#search-popup').removeClass('popup-visible');
             }
         });
         //Hide Popup
-        $('.close-search,.search-popup .overlay-layer').on('click', function() {
+        $('.close-search,.search-popup .overlay-layer').on('click', function () {
             $('#search-popup').removeClass('popup-visible');
         });
     }
@@ -323,7 +329,7 @@
 
     //Tabs Box
     if ($('.tabs-box').length) {
-        $('.tabs-box .tab-buttons .tab-btn').on('click', function(e) {
+        $('.tabs-box .tab-buttons .tab-btn').on('click', function (e) {
             e.preventDefault();
             var target = $($(this).attr('data-tab'));
 
@@ -343,7 +349,7 @@
 
     //Fact Counter + Text Count
     if ($('.count-box').length) {
-        $('.count-box').appear(function() {
+        $('.count-box').appear(function () {
 
             var $t = $(this),
                 n = $t.find(".count-text").attr("data-stop"),
@@ -358,10 +364,10 @@
                 }, {
                     duration: r,
                     easing: "linear",
-                    step: function() {
+                    step: function () {
                         $t.find(".count-text").text(Math.floor(this.countNum));
                     },
-                    complete: function() {
+                    complete: function () {
                         $t.find(".count-text").text(this.countNum);
                     }
                 });
@@ -376,7 +382,7 @@
 
     //Accordion Box
     if ($('.accordion-box').length) {
-        $(".accordion-box").on('click', '.acc-btn', function() {
+        $(".accordion-box").on('click', '.acc-btn', function () {
 
             var outerBox = $(this).parents('.accordion-box');
             var target = $(this).parents('.accordion');
@@ -406,7 +412,7 @@
 
     //Progress Bar
     if ($('.progress-line').length) {
-        $('.progress-line').appear(function() {
+        $('.progress-line').appear(function () {
             var el = $(this);
             var percent = el.data('width');
             $(el).css('width', percent + '%');
@@ -422,7 +428,7 @@
             closeOnContentClick: false,
             midClick: true,
             callbacks: {
-                beforeOpen: function() {
+                beforeOpen: function () {
                     this.st.mainClass = this.st.el.attr('data-effect');
                 }
             },
@@ -437,10 +443,10 @@
 
     //Event Countdown Timer
     if ($('.time-countdown').length) {
-        $('.time-countdown').each(function() {
+        $('.time-countdown').each(function () {
             var $this = $(this),
                 finalDate = $(this).data('countdown');
-            $this.countdown(finalDate, function(event) {
+            $this.countdown(finalDate, function (event) {
                 var $this = $(this).html(event.strftime('' + '<div class="counter-column"><span class="count">%D</span><span class="unit">Days</div></div> ' + '<div class="counter-column"><span class="count">%H</span><span class="unit">Hrs</div></div>  ' + '<div class="counter-column"><span class="count">%M</span><span class="unit">Mins</div></div>  ' + '<div class="counter-column"><span class="count">%S</span><span class="unit">Secs</div></div>'));
             });
         });
@@ -461,7 +467,7 @@
 
     //Progress Bar
     if ($('.progress-line').length) {
-        $('.progress-line').appear(function() {
+        $('.progress-line').appear(function () {
             var el = $(this);
             var percent = el.data('width');
             $(el).css('width', percent + '%');
@@ -511,7 +517,7 @@
 
     // Scroll to a Specific Div
     if ($('.scroll-to-target').length) {
-        $(".scroll-to-target").on('click', function() {
+        $(".scroll-to-target").on('click', function () {
             var target = $(this).attr('data-target');
             // animate
             $('html, body').animate({
@@ -539,7 +545,7 @@
        When document is Scrollig, do
        ========================================================================== */
 
-    $(window).on('scroll', function() {
+    $(window).on('scroll', function () {
         headerStyle();
     });
 
@@ -547,7 +553,7 @@
        When document is loading, do
        ========================================================================== */
 
-    $(window).on('load', function() {
+    $(window).on('load', function () {
         handlePreloader();
         //sortableMasonry();
     });
