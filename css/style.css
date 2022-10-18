@@ -3484,7 +3484,7 @@ img {
 
 .news-section {
     position: relative;
-    padding: 100px 0px 100px;
+    padding: 50px 0px 50px;
 }
 
 .news-section .sec-title .text {
@@ -3655,8 +3655,161 @@ img {
     margin-left: 5px;
 }
 
+.fluid-section-two {
+    position: relative;
+    width: 100vw;
+}
+
+.fluid-section-two .section-icons {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    /* z-index: 1; */
+}
+
+.fluid-section-two .section-icons .icon-one {
+    position: absolute !important;
+    left: auto !important;
+    bottom: auto !important;
+    right: 8% !important;
+    top: 15% !important;
+}
+
+.fluid-section-two .section-icons .icon-two {
+    position: absolute !important;
+    left: auto !important;
+    bottom: auto !important;
+    right: 4% !important;
+    top: 35% !important;
+}
+
+.fluid-section-two .outer-section {
+    position: relative;
+    background-color: #131144;
+}
+
+.fluid-section-two .image-column {
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    width: 50%;
+    bottom: 50px;
+    float: right;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.fluid-section-two .image-column .image {
+    width: 100%;
+    display: none;
+}
+
+.fluid-section-two .image-column .image img {
+    display: block;
+    width: 100%;
+}
+
+
+/*Content Column*/
+
+.fluid-section-two .content-column {
+    position: relative;
+    width: 50%;
+    float: right;
+}
+
+.fluid-section-two .content-column .content-box {
+    position: relative;
+    max-width: 720px;
+    width: 100%;
+    float: left;
+    z-index: 2;
+    margin: 0 auto;
+    padding: 30px 0px 30px 30px;
+}
+
+.fluid-section-two .content-column .content-box .sec-title h2 {
+    font-size: 40px;
+}
+
+.fluid-section-two .content-column .content-box .text {
+    position: relative;
+    font-size: 16px;
+    line-height: 1.7em;
+    margin-bottom: 25px;
+    color: rgba(255, 255, 255, 0.60);
+}
+
+.fluid-section-two .content-column .content-box .fluid-list {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.fluid-section-two .content-column .content-box .fluid-list li {
+    position: relative;
+    margin-bottom: 30px;
+    display: inline-block;
+    align-items: flex-start;
+}
+
+.fluid-section-two .content-column .content-box .fluid-list span {
+    position: relative;
+    display: block;
+    color: #ffffff;
+    text-align:left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+.fluid-section-two .content-column .content-box .fluid-list li strong {
+    position: relative;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 29px 40px;
+    display: inline-block;
+    text-align:center;
+    font-size: 18px;
+    min-width: 157px;
+    line-height: 1em;
+    font-family: 'Belmonte-Rough';
+    background: url(../images/icons/icon-1.png) no-repeat;
+}
+.fluid-section-two .outer-section .btnca{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fluid-section-two .content-column .content-box .fluid-list li:nth-child(2) strong {
+    background: url(../images/icons/icon-2.png) no-repeat;
+}
+
+.fluid-section-two .content-column .content-box .fluid-list li:nth-child(3) strong {
+    background: url(../images/icons/icon-3.png) no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .newsletter-section {
     position: relative;
+    margin-top: 100px;
 }
 
 .newsletter-section .inner-container {
@@ -4638,7 +4791,7 @@ img {
     background-color: #ffffff;
 }
 
-.fluid-section-two {
+/* .fluid-section-two {
     position: relative;
 }
 
@@ -4740,7 +4893,7 @@ img {
 
 /*Content Column*/
 
-.fluid-section-two .content-column {
+/* .fluid-section-two .content-column {
     position: relative;
     width: 55%;
     float: left;
@@ -4758,7 +4911,7 @@ img {
 
 .fluid-section-two .content-column .content-box .sec-title h2 {
     font-size: 40px;
-}
+} */ 
 
 .accordion-box {
     position: relative;

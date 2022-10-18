@@ -114,14 +114,17 @@
         top: 0px;
         bottom: 0px;
     }
-    .fluid-section-two .image-column .image-content {
-        bottom: 0px;
+    .fluid-section-two .image-column .image {
+        display: none;
     }
     .fluid-section-two .content-column {
         width: 50%;
     }
     .fluid-section-two .content-column .content-box {
-        padding-right: 15px;
+        padding:15px;
+    }
+    .fluid-section-two .content-column .content-box .fluid-list li {
+        margin-bottom: 10px;
     }
     .blog-detail .inner-box .lower-content h2 {
         font-size: 30px;
