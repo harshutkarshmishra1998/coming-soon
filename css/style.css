@@ -4365,7 +4365,6 @@ img {
 
 .market-section .video-column .image {
     position: relative;
-    border-radius: 50%;
     overflow: hidden;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.20);
 }
